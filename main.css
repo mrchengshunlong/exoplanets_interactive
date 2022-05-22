@@ -3,7 +3,7 @@ body {
   width: 1000px;
   color: #333;
   font-family: "Istok Web", sans-serif;
-  background-image:url(debut_light.png); 
+  background-image:url('https://github.com/pzhsummer/exoplanets_database/blob/test/debut_light.png'); 
   background-repeat:repeat;
   /*图像会按需重复来覆盖整个背景图片所在的区域*/
 } 
