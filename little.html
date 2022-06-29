@@ -241,7 +241,7 @@ vis.selectAll('text.ourPlanets')
     });
 
 //-----------------------------数据导入,重点-----------------------------
-d3.json('https://raw.githubusercontent.com/pzhsummer/exoplanets_database/test/exoplanets.json', function(json) {
+d3.json('https://raw.githubusercontent.com/pzhsummer/exoplanets_interactive/test/exoplanets.json', function(json) {
 // d3.json("exoplanets.json", function(json) {
 //选中匹配指定选择器的所有的元素。这些元素会按照文档的遍历顺序（从上到下）选择。如果当前文档中没有匹配的元素则返回空的选择。
   var node = vis.selectAll("g.node")
